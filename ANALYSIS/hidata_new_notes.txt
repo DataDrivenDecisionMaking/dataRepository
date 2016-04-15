@@ -1,0 +1,5 @@
+PREF_BRAND_DRUGS_STD column has percentage, text and values in dollars. Need to discuss this and find other similar columns where 
+data is not uniform throughout the column
+
+
+
