@@ -1,10 +1,5 @@
 select count(*) from HEALTH_PLAN_NEW;;
 
-select distinct creator from sysibm.systables;
-
-select * from sysibm.systables
-where CREATOR = 'TEAM1';
-
 select * from team1.hidata;
 
 select count(*) from team1.hidata;
