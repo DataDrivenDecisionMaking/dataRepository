@@ -85,3 +85,36 @@ SPEC_DRUGS_STD	VARCHAR(100));
 
 select * from team1.hidata_new;
 
+select count(distinct plan_id) from team1.hidata_new;   //3003
+
+select count(*) from team1.hidata_new;  // 65542
+
+select plan_id,state_code,county_name,metal_level, count(*) as TOTAL_COUNT
+from team1.hidata_new
+group by plan_id, state_code, county_name, metal_level;
+
+select plan_id,state_code,county_name, count(*) as TOTAL_COUNT
+from team1.hidata_new
+group by plan_id, state_code, county_name;
+
+
+select plan_id,state_code, count(*) as TOTAL_COUNT
+from team1.hidata_new
+group by plan_id, state_code;
+
+
+select sum(total_count)
+from (select plan_id,state_code, count(*) as TOTAL_COUNT
+from team1.hidata_new
+group by plan_id, state_code);  //65542
+
+
+
+
+
+
+
+
+
+
+
