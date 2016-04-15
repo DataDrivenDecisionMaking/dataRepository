@@ -109,7 +109,10 @@ from team1.hidata_new
 group by plan_id, state_code);  //65542
 
 
+select state_code, prem_couple_21,MED_DED_FAM_STD,PREF_BRAND_DRUGS_STD
+from team1.hidata_new;
 
+select * from team1.hidata_new;
 
 
 
