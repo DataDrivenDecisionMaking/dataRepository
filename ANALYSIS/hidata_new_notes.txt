@@ -1,5 +1,6 @@
 PREF_BRAND_DRUGS_STD column has percentage, text and values in dollars. Need to discuss this and find other similar columns where 
 data is not uniform throughout the column
 
+HIDATA table has unique records for a combination of Plan_ID, County_Name.
 
 
